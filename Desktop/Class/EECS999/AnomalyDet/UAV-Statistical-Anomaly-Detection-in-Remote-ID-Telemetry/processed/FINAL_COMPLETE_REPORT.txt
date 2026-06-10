@@ -1,0 +1,37 @@
+================================================================================
+COMPLETE ANOMALY DETECTION SYSTEM - FINAL REPORT
+================================================================================
+
+SYSTEM CONFIGURATION
+----------------------------------------
+Window Size: 10
+Stride: 5
+Statistical Threshold (k): 3.5
+Persistence Threshold: 3
+
+PHASE 1: SIMPLE INJECTION TEST
+----------------------------------------
+Accuracy:  1.0000
+Precision: 1.0000
+Recall:    1.0000
+F1 Score:  1.0000
+
+PHASE 2: REALISTIC INJECTION TEST
+----------------------------------------
+Accuracy:  1.0000
+Precision: 1.0000
+Recall:    1.0000
+F1 Score:  1.0000
+
+ML MODEL COMPARISON
+----------------------------------------
+ISOLATION_FOREST:
+  F1 Score: 0.7010
+  Accuracy: 0.9148
+  Time: 3.82s
+
+ONE_CLASS_SVM:
+  F1 Score: 0.6785
+  Accuracy: 0.9053
+  Time: 1343.20s
+

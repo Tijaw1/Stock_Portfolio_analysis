@@ -1,0 +1,25 @@
+============================================================
+ANOMALY DETECTION ALERT REPORT
+============================================================
+Timestamp: 2026-06-05 12:36:53
+Alert Level: ALERT
+Message: Anomalies detected - investigate
+
+Classification Counts:
+  NORMAL: 29835
+  DEVIATION: 5154
+  ANOMALY: 249
+
+Affected Flights:
+  1581F1637M2V001H0Y80__f33
+  1581F163CG9QR0A28X60__f03
+  1581F163CG9QR0A28X60__f04
+  1581F163CG9RR0A2B3U0__f01
+  1581F163CHA7R0A4L4X0__f03
+  1581F1ZN7LB1001S02D0__f254
+  1581F1ZNDH3L00119520__f99
+  1581F3N3BH8701202V80__f02
+  1581F3YT3K6500SM0800__f05
+  1581F3YT3K6500SM0800__f07
+  ... and 131 more
+============================================================

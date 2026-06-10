@@ -1,0 +1,12 @@
+metric,value
+accuracy,0.9466201260003405
+precision,0.6518600777345919
+recall,1.0
+f1_score,0.7892436974789916
+tp,3522.0
+fp,1881.0
+tn,29835.0
+fn,0.0
+detections,5403.0
+true_anomalies,3522.0
+roc_auc,0.9683050127089732

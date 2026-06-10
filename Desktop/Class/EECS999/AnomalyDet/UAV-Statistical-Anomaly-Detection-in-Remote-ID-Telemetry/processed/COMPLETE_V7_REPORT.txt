@@ -1,0 +1,91 @@
+================================================================================
+COMPLETE ANOMALY DETECTION SYSTEM - FINAL REPORT v7.0
+================================================================================
+
+CONFIGURATION
+----------------------------------------
+Window Size: 10
+Stride: 5
+Statistical Threshold (k): 2.5
+Persistence Threshold: 3
+Critical Persistence: 10
+Physical Checks: True
+Multi-Feature Check: True
+
+THRESHOLDS
+----------------------------------------
+rms_speed: 4.3402
+rms_altitude: 5.5026
+rms_direction: 138.6881
+
+STATISTICAL DETECTOR PERFORMANCE
+----------------------------------------
+Overall Accuracy: 0.8811
+Overall Precision: 0.5774
+Overall Recall: 0.9062
+Overall F1 Score: 0.7054
+Overall ROC-AUC: 0.9186
+
+Performance by Difficulty:
+  Easy: Recall=0.8812 F1=0.9369 (7283 samples)
+  Medium: Recall=0.8999 F1=0.9473 (2088 samples)
+  Hard: Recall=1.0000 F1=1.0000 (2080 samples)
+
+ML MODEL COMPARISON
+----------------------------------------
+
+ISOLATION_FOREST:
+  F1: 0.6712
+  Recall: 0.9274
+  Precision: 0.5259
+  Accuracy: 0.8572
+  Time: 3.76s
+
+ONE_CLASS_SVM:
+  F1: 0.5564
+  Recall: 0.9506
+  Precision: 0.3933
+  Accuracy: 0.7619
+  Time: 1081.47s
+
+LOF:
+  F1: 0.5325
+  Recall: 0.6388
+  Precision: 0.4565
+  Accuracy: 0.8237
+  Time: 25.86s
+
+RANDOM_FOREST:
+  F1: 0.5902
+  Recall: 0.4738
+  Precision: 0.7826
+  Accuracy: 0.8966
+  Time: 33.51s
+
+5-LEVEL CLASSIFICATION SUMMARY
+----------------------------------------
+  NORMAL: 53835 (73.9%)
+  DEVIATION: 7595 (10.4%)
+  ANOMALY: 4172 (5.7%)
+  PERSISTENT: 3256 (4.5%)
+  CRITICAL: 4023 (5.5%)
+
+ALERT SUMMARY
+----------------------------------------
+Alert Level: CRITICAL
+Message: CRITICAL - Physically impossible events detected
+Affected Flights: 1036
+
+CONCLUSION
+----------------------------------------
+Statistical detector outperforms ML models (F1=0.7054)
+
+Recommendations for Production:
+  1. Use statistical detector as primary (fast, interpretable)
+  2. Set alert thresholds based on difficulty requirements
+  3. Monitor false positive rate in production
+  4. Retrain thresholds periodically with new data
+
+
+Report generated: 2026-06-09 11:43:20.331556
+================================================================================

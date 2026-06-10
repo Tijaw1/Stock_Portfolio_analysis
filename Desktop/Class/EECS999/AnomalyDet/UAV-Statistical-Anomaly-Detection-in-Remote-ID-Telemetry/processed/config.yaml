@@ -1,0 +1,43 @@
+alert_email: null
+alert_on_anomaly: true
+alert_on_critical: true
+contamination: 0.1
+critical_persistence: 10
+data_folder: C:\Users\Endalkachew Desta\Desktop\Class\EECS999\NMAC\data\raw\rid_data_enriched
+default_k: 2.5
+dpi: 150
+enable_multi_feature_check: true
+enable_persistence_check: true
+enable_physical_checks: true
+injection_multiplier: 1.5
+injection_ratio: 0.1
+k_values:
+- 1.0
+- 1.5
+- 2.0
+- 2.5
+- 3.0
+- 3.5
+- 4.0
+master_dataset_path: C:\Users\Endalkachew Desta\Desktop\Class\EECS999\AnomalyDet\statmodel\data\master_data.csv
+ml_models:
+- isolation_forest
+- one_class_svm
+numeric_columns:
+- latitude
+- longitude
+- height_above_takeoff_meters
+- geodetic_altitude_meters
+- speed_meters_second
+- operator_latitude
+- operator_longitude
+output_folder: processed
+persistence_threshold: 3
+plot_format: png
+random_seed: 42
+save_plots: true
+stride: 5
+test_ratio: 0.15
+train_ratio: 0.7
+val_ratio: 0.15
+window_size: 10

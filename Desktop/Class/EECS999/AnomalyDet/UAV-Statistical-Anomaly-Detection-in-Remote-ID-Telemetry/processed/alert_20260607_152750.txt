@@ -1,0 +1,39 @@
+============================================================
+ANOMALY DETECTION ALERT REPORT
+============================================================
+Timestamp: 2026-06-07 15:27:50
+Alert Level: CRITICAL
+Message: CRITICAL - Physically impossible events detected
+
+Classification Counts:
+  NORMAL: 57066
+  DEVIATION: 4548
+  CRITICAL: 4541
+  ANOMALY: 3816
+  PERSISTENT: 2910
+
+Affected Flights: 1029
+  1581F0M6CGBBR0A0KER0__f01
+  1581F0UYKH87002001Y0__f11
+  1581F1633H6J001M1010__f01
+  1581F1633K2F001H0190__f01
+  1581F1637K7M001U0290__f07
+  1581F1637K8R001V16V0__f03
+  1581F1637L55001L0GK0__f03
+  1581F1637M2V001H0Y80__f33
+  1581F163CG9QR0A28X60__f03
+  1581F163CG9QR0A28X60__f04
+  ... and 1019 more
+
+CRITICAL ANOMALIES DETECTED:
+  Flight: 1581F0UYKH87002001Y0__f11, Details: 
+  Flight: 1581F0UYKH87002001Y0__f11, Details: 
+  Flight: 1581F0UYKH87002001Y0__f11, Details: 
+  Flight: 1581F0UYKH87002001Y0__f11, Details: 
+  Flight: 1581F0UYKH87002001Y0__f11, Details: 
+  Flight: 1581F0UYKH87002001Y0__f11, Details: 
+  Flight: 1581F0UYKH87002001Y0__f11, Details: 
+  Flight: 1581F0UYKH87002001Y0__f11, Details: 
+  Flight: 1581F0UYKH87002001Y0__f11, Details: 
+  Flight: 1581F0UYKH87002001Y0__f11, Details: 
+============================================================

@@ -1,0 +1,36 @@
+contamination: 0.1
+data_folder: C:\Users\Endalkachew Desta\Desktop\Class\EECS999\NMAC\data\raw\rid_data_enriched
+default_k: 2.5
+dpi: 150
+injection_multiplier: 1.5
+injection_ratio: 0.1
+k_values:
+- 1.0
+- 1.5
+- 2.0
+- 2.5
+- 3.0
+- 3.5
+- 4.0
+master_dataset_path: C:\Users\Endalkachew Desta\Desktop\Class\EECS999\NMAC\data\raw\rid_data_enriched\Pierce_A83_Dec_25_enriched.csv
+ml_models:
+- isolation_forest
+- one_class_svm
+- lof
+numeric_columns:
+- latitude
+- longitude
+- height_above_takeoff_meters
+- geodetic_altitude_meters
+- speed_meters_second
+- operator_latitude
+- operator_longitude
+output_folder: processed
+plot_format: png
+random_seed: 42
+save_plots: true
+stride: 5
+test_ratio: 0.15
+train_ratio: 0.7
+val_ratio: 0.15
+window_size: 10

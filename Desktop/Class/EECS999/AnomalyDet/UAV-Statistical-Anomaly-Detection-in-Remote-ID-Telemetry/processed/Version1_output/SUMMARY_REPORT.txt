@@ -1,0 +1,14 @@
+======================================================================
+ANOMALY DETECTION PIPELINE - SUMMARY REPORT
+======================================================================
+
+CONFIGURATION
+----------------------------------------
+Window size: 10
+Stride: 5
+Default k value: 2.5
+Injection ratio: 0.1
+Injection multiplier: 1.5
+
+THRESHOLDS
+----------------------------------------

@@ -1,0 +1,61 @@
+================================================================================
+ENHANCED ANOMALY DETECTION SYSTEM - FINAL REPORT
+================================================================================
+
+SYSTEM CONFIGURATION
+----------------------------------------
+Window Size: 10
+Stride: 5
+Default k (statistical): 2.5
+Persistence Threshold: 3
+Critical Persistence: 10
+Physical Checks: True
+Multi-Feature Check: True
+
+ALERT STATUS
+----------------------------------------
+Alert Level: ALERT
+Message: Anomalies detected - investigate
+Affected Flights: 141
+
+CLASSIFICATION RESULTS
+----------------------------------------
+NORMAL               :  29835 ( 84.7%)
+DEVIATION            :   5154 ( 14.6%)
+ANOMALY              :    249 (  0.7%)
+PERSISTENT_ANOMALY   :      0 (  0.0%)
+CRITICAL_ANOMALY     :      0 (  0.0%)
+
+ENHANCED CLASSIFIER PERFORMANCE
+----------------------------------------
+Accuracy:  0.9005
+Precision: 0.5341
+Recall:    0.0378
+F1-Score:  0.0705
+ROC-AUC:   0.9696
+
+Confusion Matrix:
+  TP: 133, FP: 116
+  TN: 31600, FN: 3389
+
+MACHINE LEARNING BASELINES
+----------------------------------------
+
+ISOLATION_FOREST:
+  F1-Score: 0.7010
+  ROC-AUC:  0.9526
+  Time:     5.6200s
+
+ONE_CLASS_SVM:
+  F1-Score: 0.6466
+  ROC-AUC:  0.9126
+  Time:     1231.5369s
+
+RECOMMENDATIONS
+----------------------------------------
+ML baseline ISOLATION_FOREST outperforms classifier
+Recommendation: Consider ensemble approach
+
+================================================================================
+Report Generated: 2026-06-05 12:37:11
+================================================================================
